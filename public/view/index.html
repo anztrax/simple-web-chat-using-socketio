@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Socket.io Chat</title>
+    <link rel="stylesheet" href="/styles/main.css" />
+</head>
+<body>
+    <!-- modal new user form -->
+    <div class="modal">
+        <div class="modal-bg"></div>
+        <div class="modal-content" id="newUserModal">
+            <div class="modal-header">
+                <strong>Who are you ?</strong>
+            </div>
+            <div class="modal-body">
+                <form action="" id="newUserForm">
+                    <input type="text" class="input input-short" placeholder="username" id="newUserTextInput" />
+                    <button class="btn btn-ok" id="readyToChatBtn">Ready To Chat!</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <form id="statusBar">
+        <div id="nameContainer">hi : <span id="joinerName"></span></div>
+        <button id="leaveConversationBtn">Leave chat </button>
+    </form>
+    <ul id="messages"></ul>
+    <form action="" id="messageForm">
+        <input id="messageTextInput" autocomplete="off" />
+        <button>Send Message</button>
+    </form>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="http://code.jquery.com/jquery-1.11.1.js"></script>
+    <script src="/scripts/scripts.js"></script>
+</body>
+</html>
