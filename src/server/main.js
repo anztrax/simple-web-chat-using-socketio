@@ -1,12 +1,14 @@
-var express = require('express');
+import express from 'express';
 var app = express();
+var path = require('path');
 var http = require('http').Server(app);
 var io = require('socket.io')(http);
 
 app.get('/',function(req,res){
-  res.sendFile(__dirname + '/public/view/index.html');
+  res.sendFile(path.join(__dirname,'../../public/view/index.html'));
 });
 app.use(express.static(process.cwd()  + '/public'));
+
 
 io.on('connection',function(socket){
   console.log('a user connected');
@@ -43,3 +45,5 @@ io.on('connection',function(socket){
 http.listen(3000,function(){
   console.log('listen on port : ' + 3000)
 });
+
+export default app;
