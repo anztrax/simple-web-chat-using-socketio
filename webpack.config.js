@@ -1,6 +1,7 @@
-var webpack = require('webpack');
-var path = require('path');
-var fs = require('fs');
+const webpack = require('webpack');
+const validate = require('webpack-validator');
+const path = require('path');
+const fs = require('fs');
 
 var nodeModules = {};
 fs.readdirSync('node_modules')
@@ -11,7 +12,7 @@ fs.readdirSync('node_modules')
     nodeModules[mod] = 'commonjs ' + mod;
   });
 
-module.exports = {
+var config = {
   entry : {
     server : path.join(__dirname, './src/server/index.js')
   },
@@ -38,3 +39,5 @@ module.exports = {
     })
   ]
 };
+
+module.exports = validate(config);

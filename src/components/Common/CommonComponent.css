@@ -1,0 +1,10 @@
+.btn{
+    border: none;
+}
+.btn-medium{
+    width: 100px;
+    padding: 10px;
+}
+.btn-blue{
+    background: rgb(130, 224, 255);
+}
