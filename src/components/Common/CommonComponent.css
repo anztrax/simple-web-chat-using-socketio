@@ -8,3 +8,13 @@
 .btn-blue{
     background: rgb(130, 224, 255);
 }
+
+.input {
+    border: 0;
+}
+
+.input-medium{
+    padding: 5px;
+    width: 300px;
+    margin-right: 10px;
+}

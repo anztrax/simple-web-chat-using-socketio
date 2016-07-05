@@ -1,4 +1,7 @@
 import React from 'react';
+import ChatList from './../components/ChatList/ChatList.jsx';
+import StatusBar from './../components/StatusBar/StatusBar.jsx';
+import MessageForm from './../components/MessageForm/MessageForm.jsx';
 
 export default class ChatApp extends React.Component{
   constructor(props){
@@ -7,15 +10,9 @@ export default class ChatApp extends React.Component{
   render(){
     return (
       <div>
-        <form id="statusBar">
-          <div id="nameContainer">hi : <span id="joinerName"></span></div>
-          <button id="leaveConversationBtn">Leave chat </button>
-        </form>
-        <ul id="messages"></ul>
-        <form action="" id="messageForm">
-          <input id="messageTextInput" autocomplete="off" />
-          <button>Send Message</button>
-        </form>
+        <StatusBar />
+        <ChatList />
+        <MessageForm />
       </div>
     )
   }

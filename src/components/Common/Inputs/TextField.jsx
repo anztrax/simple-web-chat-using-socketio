@@ -8,16 +8,16 @@ export default class TextField extends React.Component{
 
   static SIZE = {
     MEDIUM : {
-      className : ''
+      className : 'input-medium'
     }
   };
 
   render(){
     //resolve button styles
     const {SIZE} = this.props || {className : ''};
-    const className = '';
+    const className = `input $(SIZE)`;
     return (
-      <input className={className} />
+      <input type="text" className={className} />
     )
   }
 }

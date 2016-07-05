@@ -1,6 +1,7 @@
 import React from 'react';
 
 import { Button } from './../Common/Buttons';
+import { TextField } from './../Common/Inputs';
 
 export default class MessageForm extends React.Component{
   constructor(props){
@@ -14,7 +15,7 @@ export default class MessageForm extends React.Component{
   render(){
     return (
       <div>
-        <input type="" />
+        <TextField size={TextField.SIZE.MEDIUM} />
         <Button COLOR={Button.COLOR.BLUE} SIZE={Button.SIZE.MEDIUM} onClick={this.onLeaveChat.bind(this)}>Leave chat</Button>
       </div>
     )
