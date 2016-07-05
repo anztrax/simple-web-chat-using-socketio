@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8fa8753-6244-4683-b535-b1f2eea76674" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/Common/Inputs/index.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/Common/Inputs/TextField.js" afterPath="$PROJECT_DIR$/src/components/Common/Inputs/TextField.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Page/ChatApp.jsx" afterPath="$PROJECT_DIR$/src/Page/ChatApp.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Common/CommonComponent.css" afterPath="$PROJECT_DIR$/src/components/Common/CommonComponent.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/MessageForm/MessageForm.jsx" afterPath="$PROJECT_DIR$/src/components/MessageForm/MessageForm.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Page/ChatAppPage.js" afterPath="$PROJECT_DIR$/src/Page/ChatAppPage.js" />
     </list>
     <ignored path="proj1.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -56,7 +51,7 @@
         <entry file="file://$PROJECT_DIR$/src/Page/ChatAppPage.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="54">
-              <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+              <caret line="3" column="58" selection-start-line="3" selection-start-column="58" selection-end-line="3" selection-end-column="58" />
               <folding>
                 <element signature="e#0#34#0" expanded="true" />
               </folding>
@@ -169,7 +164,6 @@
         <option value="$PROJECT_DIR$/webpack.config.js" />
         <option value="$PROJECT_DIR$/src/components/index.js" />
         <option value="$PROJECT_DIR$/src/Page/index.js" />
-        <option value="$PROJECT_DIR$/src/Page/ChatAppPage.js" />
         <option value="$PROJECT_DIR$/src/components/StatusBar/StatusBarName.jsx" />
         <option value="$PROJECT_DIR$/src/components/Common/Buttons/index.js" />
         <option value="$PROJECT_DIR$/src/components/ChatList/ChatUsername.jsx" />
@@ -185,6 +179,7 @@
         <option value="$PROJECT_DIR$/src/components/Common/Inputs/index.js" />
         <option value="$PROJECT_DIR$/src/Page/ChatApp.jsx" />
         <option value="$PROJECT_DIR$/src/components/MessageForm/MessageForm.jsx" />
+        <option value="$PROJECT_DIR$/src/Page/ChatAppPage.js" />
       </list>
     </option>
   </component>
@@ -591,12 +586,12 @@
       <workItem from="1467557739129" duration="7953000" />
       <workItem from="1467602039429" duration="4611000" />
       <workItem from="1467607596850" duration="15180000" />
-      <workItem from="1467683443165" duration="1763000" />
+      <workItem from="1467683443165" duration="1950000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29507000" />
+    <option name="totallyTimeSpent" value="29694000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1855" height="1056" extended-state="6" />
@@ -1034,7 +1029,7 @@
     <entry file="file://$PROJECT_DIR$/src/Page/ChatAppPage.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
-          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+          <caret line="3" column="58" selection-start-line="3" selection-start-column="58" selection-end-line="3" selection-end-column="58" />
           <folding>
             <element signature="e#0#34#0" expanded="true" />
           </folding>

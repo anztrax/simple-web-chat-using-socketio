@@ -1,4 +1,4 @@
 import {render } from 'react-dom';
 import ChatApp from './ChatApp.jsx';
 
-render(<ChatApp />, );
+render(<ChatApp />, document.getElementById('mainComponent'));
